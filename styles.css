@@ -1,0 +1,210 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #7bcfe8;
+    color: rgb(13, 4, 32);
+    text-align: center;
+    padding: 1rem;
+}
+
+#searchBar {
+    width: 50%;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+#suggestions {
+    max-width: 50%;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
+    position: absolute;
+    z-index: 1000;
+}
+
+#suggestions div {
+    padding: 1rem;
+    cursor: pointer;
+}
+
+#suggestions div:hover {
+    background-color: #7bcfe8;
+}
+
+main {
+    padding: 1rem;
+}
+
+.state-info {
+    margin-bottom: 2rem;
+}
+
+.state-info h2 {
+    text-align: right;
+    margin-bottom: 1rem;
+}
+
+.state-info div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #7bcfe8;
+    color: rgb(13, 4, 32);
+    text-align: center;
+    padding: 1rem;
+}
+
+#searchBar {
+    width: 50%;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+#suggestions {
+    max-width: 50%;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
+    position: absolute;
+    z-index: 1000;
+}
+
+#suggestions div {
+    padding: 1rem;
+    cursor: pointer;
+}
+
+#suggestions div:hover {
+    background-color: #7bcfe8;
+}
+
+main {
+    padding: 1rem;
+}
+
+.state-info {
+    margin-bottom: 20px;
+}
+
+.state-info h2 {
+    text-align: center;
+}
+
+.state-info div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: left;
+}
+
+.state-info div > div {
+    flex: 1 1 calc(33.333% - 20px); /* Adjust based on how many images per row */
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.state-info img {
+    width: 100%;
+    max-width: 200px; /* Adjust as needed */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.state-info p {
+    margin: 0;
+}
+
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+      justify-content: right;
+    }
+
+    .image-item {
+      display: flex;
+      flex-direction: row;
+      align-items:center;
+      margin: 10px;
+    }
+
+    img {
+      width: 500px;
+      height: 500px;
+    }
+
+
+footer {
+    background-color: #7bcfe8;
+    color: rgb(159, 110, 139);
+    text-align: center;
+    padding: 0.5rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+button {
+    background-color: #7bcfe8;
+    border: none;
+    color: rgb(13, 4, 32);
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5a9bd4;
+}
+
+.state-info div > div {
+    flex: 1 1 30%;
+    margin: 10px;
+    text-align: right;
+}
+
+.state-info img {
+    width: 20%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #7bcfe8;
+    color: rgb(159, 110, 139);
+    text-align: center;
+    padding: 0.5rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.mainContent
+{
+    display: flex;
+}
+
+
+
+
+
+
+
+
